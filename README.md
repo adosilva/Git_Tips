@@ -1,5 +1,4 @@
 # Git_Tips
-Principais dicas do GIT
 
 # Comandos básicos Git e Github
 
