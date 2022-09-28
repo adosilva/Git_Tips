@@ -23,6 +23,12 @@ git config --global user.name “seu nome”
 git config --global user.email “seu email”
 ```
 
+### Clonar Repositório
+
+```bash
+git clone -b <branch> <remote_repo>
+```
+
 ### Inicializa o repositório
 
 ```bash
