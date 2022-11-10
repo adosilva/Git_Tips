@@ -1,10 +1,13 @@
 1. Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
-#// dentro da AngularAPP
-2. npm install -g @angular/cli
+## dentro da AngularAPP
 
-#// dentro do projeto appPlanet
-3. ng add @angular/material
+´´´2. npm install -g @angular/cli
 
-#// criar a App
-4. ng new app<nome do planeta>
+## dentro do projeto appPlanet
+
+´´´3. ng add @angular/material
+
+## criar a App
+
+´´´4. ng new app<nome do planeta>
