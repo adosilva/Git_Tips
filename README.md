@@ -88,14 +88,14 @@ git pull origin main --allow-unrelated-histories
 ```
 
 ```bash
-git pull --allow-unrelated-histories origin master
-git push -u origin master
+git pull --allow-unrelated-histories origin main
+git push -u origin main
 ```
 
-### Realiza o envio dos commits para o branch master
+### Realiza o envio dos commits para o branch main
 
 ```bash
-git push origin master
+git push origin main
 ```
 
 ### Baixar a alteração feita no repositório remoto:
@@ -116,10 +116,10 @@ git tag -a <nome da tag> -m <comentário>
 git push origin --tags
 ```
 
-### Muda para a branch Master
+### Muda para a branch main
 
 ```bash
-git checkout master
+git checkout main
 ```
 
 ### Cria uma nova branch
