@@ -9,15 +9,18 @@
 - [Principais Comandos do Git](#-principais-comandos-do-git-)
 <!--te-->
 
+## Antes de iniciar este procedimento
+## Vá até uma pasta onde deseja clonar o projeto escolhido
+
 ## 👑 Principais comandos do GIT 👑
 
-### Defini o nome de usuário
+### Definindo o nome de usuário
 
 ```bash
 git config --global user.name “seu nome”
 ```
 
-### Defini o email do usuário
+### Definindo o email do usuário
 
 ```bash
 git config --global user.email “seu email”
@@ -27,6 +30,18 @@ git config --global user.email “seu email”
 
 ```bash
 git clone -b <branch> <remote_repo>
+```
+
+### Listar pastas criadas
+
+```bash
+ls
+```
+
+### Listar pastas criadas
+
+```bash
+cd <nome da pasta>
 ```
 
 ### Inicializa o repositório
@@ -41,16 +56,43 @@ git init
 git status
 ```
 
-### Coloca o arquivo em Staging
+### Verifica se o diretório remoto foi instalado
 
 ```bash
-git add NomeDoArquivo.txt
+git remote -v
+```
+### >>> Caso não retorne nenhum informação execute o comando abaixo:
+
+### Informar a pasta remota (Via HTTPS):
+
+(lembre-se de copiar no botão verde [ Code ] na página do projeto no GitHub)
+
+```bash
+git remote add origin <link do projeto>
+```
+
+### Puxar atualizações do Projeto > Lembrar de clicar em > Commit Behind no GitHub (Página) antes de executar o comando abaixo.
+
+```bash
+git pull origin main
+```
+
+### Coloca o arquivo em Staging > Antes de Commit
+
+```bash
+git add .
 ```
 
 ### Realiza o Commit
 
 ```bash
-git commit -m "meu commit aqui"
+git commit -m "update <versão do projeto> <nome do projeto>"
+```
+
+### Enviar atualizações do Projeto > Lembrar de clicar em > Commit Ahead no GitHub (Página), após executar o comando abaixo.
+
+```bash
+git push origin main
 ```
 
 ### Informar a pasta remota (Via HTTPS):
