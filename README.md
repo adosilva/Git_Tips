@@ -38,7 +38,7 @@ git clone -b <branch> <remote_repo>
 ls
 ```
 
-### Listar pastas criadas
+### Entrar na pasta criada, conforme o nome do Projeto Atual.
 
 ```bash
 cd <nome da pasta>
